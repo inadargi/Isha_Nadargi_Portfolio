@@ -1,0 +1,27 @@
+Smart Canteen Management System Mar 2025 - Apr 2025 
+Personalized Canteen Management Website | React.js, TypeScript, Node.js, PostgreSQL, Tailwind CSS, Recharts, WebSocket 
+• Developed a role-based web application for college canteen management, supporting admin, staff, and student roles. 
+• Implemented real-time order tracking using WebSocket’s and integrated a chatbot assistant for student queries. 
+• Built an Admin Dashboard with visual analytics using Recharts, showing trends in orders, revenue, and popular items 
+• Added features like inventory control, menu management, discount system for students, and daily order reports. 
+• Ensured responsive UI with Tailwind CSS and used React Hook Form + Zod for robust form validation. 
+Hand Mounted Device for Blind Individuals  Feb 2025 – Feb2025 
+AI & Robotics Hackathon | Arduino, Ultrasonic Sensors, Vibration Motor, Buzzer, python 
+• Developed a hand-mounted device designed to assist blind individuals in navigating obstacles using ultrasonic sensors. 
+• Integrated AI-based algorithms for improved accuracy in object detection and distance estimation. 
+•  Successfully showcased the device at the AI and Robotics Hackathon, receiving recognition for innovation in assistive 
+technology. 
+Virtual Study Platform  Jan 2024 - Feb 2024 
+Virtual Study Platform | MySQL, Express JS, React, Node JS 
+• Built an online learning platform offering role-based access for students and teachers. 
+• Integrated live class scheduling, video resources, and real-time doubt clearing features. 
+• Enabled personalized dashboards and attendance tracking, improving student engagement by 60%. 
+Maha Vaccination Drive  Jul 2022 - Aug 2022 
+Vaccine Management System | Java, AWT, Swings, JDBC, MySQL and MVC architecture 
+• Deployed a real-time vaccine booking system, facilitating over 10,000 appointments. 
+• Optimized appointment scheduling and validation processes, reducing wait times by 60%. 
+Inventory Management System  Jun 2023 - Aug 2023 
+Inventory Management System | Java, MySQL, Swings 
+• Implemented an inventory system, optimizing operational efficiency by 90%. 
+• Sustained scalable backend architecture handling 5,000+ monthly transactions. 
+• Streamlined student purchase management, reducing discrepancies by 85%. 

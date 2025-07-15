@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Nadargi - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading Portfolio...</h2>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Isha Nadargi</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-element" data-speed="2"></div>
+        <div class="floating-element" data-speed="3"></div>
+        <div class="floating-element" data-speed="1.5"></div>
+        <div class="floating-element" data-speed="2.5"></div>
+        <div class="floating-element" data-speed="1.8"></div>
+    </div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas" class="particle-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Isha Nadargi</span>
+                    <span class="role animated-text" id="animatedText">Software Engineer</span>
+                </h1>
+                <p class="hero-description">
+                    Passionate Computer Science student from Dr. DY Patil COE, Kolhapur, 
+                    specializing in full-stack development with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary hire-me-btn">
+                        <span>Hire Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View Projects</span>
+                        <i class="fas fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <img src="assets/profile-photo-transparent.png" alt="Isha Nadargi - Software Engineer" class="hero-img">
+                    <div class="hero-image-overlay"></div>
+                </div>
+                <div class="laptop-animation">
+                    <div class="laptop">
+                        <div class="laptop-screen">
+                            <div class="code-lines">
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"></div>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer with a unique blend of technical skills and athletic discipline</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Academic Background</h3>
+                        <p>Final-year Computer Science student at Dr. DY Patil COE, Kolhapur, with a strong foundation in software engineering principles and modern development practices.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Technical Expertise</h3>
+                        <p>Specialized in full-stack development using React.js, Node.js, TypeScript, PostgreSQL, and Java. Experienced in building scalable web applications and database systems.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Beyond Code</h3>
+                        <p> baseball and softball player, bringing the same discipline, teamwork, and strategic thinking from sports to software development.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-container">
+                        <img src="https://pixabay.com/get/g4e8e4f9d59ae335d2f097ac143e866c1aad14f922d0928b93f51a49b72d84c0a2ee9ce4e9e2c8f2d4568ee7fab452b7054a32d9e45c5949c12d804c3f1fa91ab_1280.jpg" alt="About Isha" class="about-img">
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h4>4+</h4>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h4>1+</h4>
+                                <p>Years Experience</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Innovative solutions built with modern technologies</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Smart Canteen System -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://pixabay.com/get/g1154db0d1d07c3dc05bf9cb110303af520b3be2fccc1db134f2b20d499975afa51c70165ecea69f54c24136f1244ea614c51d5031bd334b60a6e1fa6570f06b2_1280.jpg" alt="Smart Canteen System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                               
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Canteen Management System</h3>
+                        <p>Role-based web application for college canteen management supporting admin, staff, and student roles. Features real-time order tracking using WebSockets, integrated chatbot assistant, Admin Dashboard with visual analytics using Recharts, inventory control, and discount system for students.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">WebSocket</span>
+                            <span class="tech-tag">Recharts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hand Mounted Device for Blind Individuals -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hand Mounted Device for Blind Individuals">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hand Mounted Device for Blind Individuals</h3>
+                        <p>AI-powered assistive device developed for AI & Robotics Hackathon using Arduino and ultrasonic sensors to help blind individuals navigate obstacles with improved accuracy in object detection and distance estimation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Goldsmith Billing Software -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="https://pixabay.com/get/gf5de936be4a59422daee09e797ddd9345ac1c0074769714f812397e3fb1da050cd674246c448840f2634277f4f423542b7887ce6ff00cd841543ac470de6f362_1280.jpg" alt="Goldsmith Billing Software">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Goldsmith Billing Software</h3>
+                        <p>Desktop application developed with Java and MySQL, providing complete inventory management, automated billing system, and comprehensive customer relationship management for jewelry businesses.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">JDBC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virtual Study Platform -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Virtual Study Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                               <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Virtual Study Platform</h3>
+                        <p>Online learning platform with role-based access for students and teachers. Features live class scheduling, video resources, real-time doubt clearing, personalized dashboards, and attendance tracking, improving student engagement by 60%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inventory Management System -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Inventory Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                               <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Inventory Management System</h3>
+                        <p>Comprehensive inventory system optimizing operational efficiency by 90%. Built with scalable backend architecture handling 5,000+ monthly transactions while streamlining student purchase management and reducing discrepancies by 85%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">JDBC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maha Vaccination Drive -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="project-image">
+                        <img src="https://pixabay.com/get/g96ee875862f61d5a2b5b1c60360ddf1f0b926f882874e9f025b030b6159c5ba49915f933d5be55e12c4c5d9ebb8ffdbb6134c61161ef37166abd073f2fcca944_1280.jpg" alt="Maha Vaccination Drive">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Maha Vaccination Drive</h3>
+                        <p>Real-time vaccine booking system built with Java, AWT, Swings, JDBC, and MySQL using MVC architecture. Successfully deployed facilitating over 10,000 appointments with optimized scheduling and validation processes, reducing wait times by 60%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JDBC</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">MVC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-code"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-server"></i>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Database</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">Professional journey and achievements</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Web Developer</h3>
+                        <h4>Anvistar Pvt Ltd</h4>
+                        <p>Working on end-to-end web development projects, implementing modern full-stack technologies and contributing to scalable application architectures. Collaborating with cross-functional teams to deliver comprehensive web solutions.</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Java Developer</h3>
+                        <h4>Vikrama Technologies</h4>
+                        <p>Specialized in Java application development, working on enterprise-level solutions and backend systems. Gained extensive experience in object-oriented programming, database integration, and software design patterns.</p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Spring Framework</span>
+                            <span class="skill-tag">JDBC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:inadargi@gmail.com" class="email-link">inadargi@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 8799903***</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Solapur, Maharashtra</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/isha-nadargi</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Isha Nadargi. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/inadargi" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/isha-nadargi-399863245/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- React Icon -->
+  <symbol id="react" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="2"/>
+    <path d="M12 1c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/>
+    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"/>
+  </symbol>
+  
+  <!-- Node.js Icon -->
+  <symbol id="nodejs" viewBox="0 0 24 24">
+    <path d="M12 1.85c-.27 0-.55.07-.78.2l-7.44 4.3c-.48.28-.78.8-.78 1.36v8.58c0 .56.3 1.08.78 1.36l7.44 4.3c.48.28 1.08.28 1.56 0l7.44-4.3c.48-.28.78-.8.78-1.36V7.71c0-.56-.3-1.08-.78-1.36l-7.44-4.3c-.23-.13-.51-.2-.78-.2z"/>
+  </symbol>
+  
+  <!-- JavaScript Icon -->
+  <symbol id="javascript" viewBox="0 0 24 24">
+    <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.11-.403.602-.523.995-.402.23.138.436.361.477.778.502-.331.502-.331.854-.547-.129-.201-.198-.285-.29-.371-.31-.331-.725-.501-1.393-.48l-.335.055c-.628.194-1.227.613-1.581 1.178-.476.767-.343 1.656.413 2.102.75.395 1.849.613 1.987 1.077.054.462-.11.94-.857 1.122-.748.201-1.187-.083-1.611-.639-.222-.31-.243-.464-.7-.749l-.654.416c.31.696.595 1.031 1.254 1.3.473.19 1.458.246 2.252-.316.526-.331.772-.789.747-1.179z"/>
+  </symbol>
+  
+  <!-- Database Icon -->
+  <symbol id="database" viewBox="0 0 24 24">
+    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+    <path d="M3 5v14c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/>
+    <path d="M3 12c0 1.657 4.029 3 9 3s9-1.343 9-3"/>
+  </symbol>
+  
+  <!-- Code Icon -->
+  <symbol id="code" viewBox="0 0 24 24">
+    <polyline points="16 18 22 12 16 6"/>
+    <polyline points="8 6 2 12 8 18"/>
+  </symbol>
+  
+  <!-- Mobile Icon -->
+  <symbol id="mobile" viewBox="0 0 24 24">
+    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+    <line x1="12" y1="18" x2="12.01" y2="18"/>
+  </symbol>
+  
+  <!-- Server Icon -->
+  <symbol id="server" viewBox="0 0 24 24">
+    <rect x="2" y="3" width="20" height="4" rx="1" ry="1"/>
+    <rect x="2" y="9" width="20" height="4" rx="1" ry="1"/>
+    <rect x="2" y="15" width="20" height="4" rx="1" ry="1"/>
+    <line x1="6" y1="5" x2="6.01" y2="5"/>
+    <line x1="6" y1="11" x2="6.01" y2="11"/>
+    <line x1="6" y1="17" x2="6.01" y2="17"/>
+  </symbol>
+  
+  <!-- Git Icon -->
+  <symbol id="git" viewBox="0 0 24 24">
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  </symbol>
+  
+  <!-- Email Icon -->
+  <symbol id="email" viewBox="0 0 24 24">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </symbol>
+  
+  <!-- Phone Icon -->
+  <symbol id="phone" viewBox="0 0 24 24">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+  
+  <!-- Location Icon -->
+  <symbol id="location" viewBox="0 0 24 24">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+    <circle cx="12" cy="10" r="3"/>
+  </symbol>
+  
+  <!-- LinkedIn Icon -->
+  <symbol id="linkedin" viewBox="0 0 24 24">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+    <rect x="2" y="9" width="4" height="12"/>
+    <circle cx="4" cy="4" r="2"/>
+  </symbol>
+  
+  <!-- External Link Icon -->
+  <symbol id="external-link" viewBox="0 0 24 24">
+    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+    <polyline points="15,3 21,3 21,9"/>
+    <line x1="10" y1="14" x2="21" y2="3"/>
+  </symbol>
+  
+  <!-- Arrow Right Icon -->
+  <symbol id="arrow-right" viewBox="0 0 24 24">
+    <line x1="5" y1="12" x2="19" y2="12"/>
+    <polyline points="12,5 19,12 12,19"/>
+  </symbol>
+  
+  <!-- Check Circle Icon -->
+  <symbol id="check-circle" viewBox="0 0 24 24">
+    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+    <polyline points="22,4 12,14.01 9,11.01"/>
+  </symbol>
+  
+  <!-- Star Icon -->
+  <symbol id="star" viewBox="0 0 24 24">
+    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+  </symbol>
+  
+  <!-- Download Icon -->
+  <symbol id="download" viewBox="0 0 24 24">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7,10 12,15 17,10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </symbol>
+</svg>
